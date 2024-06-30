@@ -21,7 +21,7 @@ function setup(app, books) {
   });
 
   app.get("/about", function (req, res) {
-    let model = { title: "For You" };
+    let model = { title: "About" };
     res.render("about", model);
   });
 
